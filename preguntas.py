@@ -181,7 +181,7 @@ def pregunta_10():
    # Ordenar numéricamente el contenido de cada fila en la columna _c1
     grouped['_c2'] = grouped['_c2'].apply(lambda x: ':'.join(sorted(x.split(':'), key=int)))
     
-    # Return the result
+    # Return
     return grouped
 print(pregunta_10())
 
